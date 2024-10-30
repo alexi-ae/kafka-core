@@ -31,6 +31,7 @@
 
     <modules>
         <module>kafka-provider</module>
+        <module>kafka-consumer</module>
     </modules>
 
 
