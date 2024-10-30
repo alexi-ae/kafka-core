@@ -190,9 +190,7 @@ Este módulo proporciona servicios que interactúan con Kafka para publicar mens
 
 # Comandos de Apache Kafka
 
-A continuación se presenta una lista de comandos comunes de Apache Kafka, organizados por categorías.
-
-## 1. Comandos de Configuración del Clúster
+A continuación se presenta una lista de comandos comunes de Apache Kafka
 
 - **Iniciar Zookeeper**:
   ```bash
