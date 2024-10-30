@@ -5,16 +5,6 @@
 Este proyecto está organizado de manera modular en dos componentes principales: `kafka-consumer` y `kafka-provider`. A
 continuación, se presenta la estructura de carpetas y una breve descripción de cada una de ellas.
 
-### `.idea`
-
-Esta carpeta contiene la configuración del proyecto para IDEs como IntelliJ IDEA. Aquí se almacenan ajustes específicos
-del entorno de desarrollo.
-
-### `.mvn`
-
-Contiene la configuración de Maven, incluida la carpeta `wrapper`, que permite utilizar una versión específica de Maven
-en el proyecto.
-
 ### `pom.xml` (Proyecto Padre)
 
 El archivo `pom.xml` en la raíz del proyecto actúa como el proyecto padre y define las dependencias comunes y la
