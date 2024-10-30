@@ -29,6 +29,11 @@
     <!-- proyecto global base-->
     <packaging>pom</packaging>
 
+    <modules>
+        <module>kafka-provider</module>
+    </modules>
+
+
     <properties>
         <java.version>17</java.version>
     </properties>
