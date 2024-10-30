@@ -186,6 +186,50 @@ Este módulo proporciona servicios que interactúan con Kafka para publicar mens
 └───provider
 ```
 
+
+
+# Comandos de Apache Kafka
+
+A continuación se presenta una lista de comandos comunes de Apache Kafka, organizados por categorías.
+
+## 1. Comandos de Configuración del Clúster
+
+- **Iniciar Zookeeper**:
+  ```bash
+  .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+  ```
+
+- **Iniciar el servidor Kafka**:
+  ```bash
+    .\bin\windows\kafka-server-start.bat .\config\server.properties
+  ```
+
+- **Crea un nuevo topic en el servidor de kafka**:
+  ```bash
+    .\bin\windows\kafka-topics.bat --bootstrap-server localhost:9092 --create --topic test-topic
+  ```
+
+- **Decribir los detalles de un topic**:
+  ```bash
+    .\bin\windows\kafka-topics.bat --describe --topic test-topic --bootstrap-server localhost:9092
+  ```
+
+- **Listar todos los topics que existen dentro del broker**:
+  ```bash
+    .\bin\windows\kafka-topics.bat --list --bootstrap-server localhost:9092
+  ```
+
+- **Inicia una consola para ver mensajes de un topic especifico**:
+  ```bash
+    .\bin\windows\kafka-console-consumer.bat --topic test-topic --bootstrap-server localhost:9092
+  ```
+
+- **Inicia una consola para enviar mensajes a un topic específico**:
+  ```bash
+    .\bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic test-topic
+  ```
+
+
 ## Tecnologías Utilizadas
 
 - **Lenguaje de programación**: Java
